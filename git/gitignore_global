@@ -1,0 +1,19 @@
+# general exclusions for git
+*.o
+*.so
+
+# packages
+*.dmg
+*.gz
+*.zip
+
+# Python
+*.pyc
+
+#OSX stuff
+.DS_Store
+.DS_Store?
+
+# editor
+*.swp
+
