@@ -5,3 +5,6 @@ export PATH=/usr/local/bin:/usr/local/sbin:$PATH
 export WORKON_HOME=$HOME/.virtualenvs
 export PROJECT_HOME=$HOME/src
 source /usr/local/bin/virtualenvwrapper.sh
+
+#aliases
+alias pushlive='git push live master'
