@@ -22,4 +22,6 @@ else
     ln -s "${SRC_DIR}/bash_profile" $DEST
 fi
 
+#ensure directory exists for virtualenvs
+mkdir -p "${HOME}/.virtualenvs"
 echo "Log out and in again to apply bash profile"
