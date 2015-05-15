@@ -27,13 +27,11 @@ fi
 
 # check if dest exists so we don't blow away existing config
 if [ -e $DEST ]; then
-    #cat "${SRC_DIR}/bash_profile" >> $DEST
     echo "source ${LOCAL_CONFIG}" >> "${DEST}"
 else
-    #ln -s "${SRC_DIR}/bash_profile" $DEST
     ln -s "${LOCAL_CONFIG}" "${DEST}"
 fi
 
 #ensure directory exists for virtualenvs
 mkdir -p "${HOME}/.virtualenvs"
-echo "Log out and in again to apply bash profile"
+source "${DEST}"
