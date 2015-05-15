@@ -1,0 +1,4 @@
+# homebrew setup
+export HOMEBREW_CASK_OPTS="--appdir=/Applications --caskroom=/etc/Caskroom"
+export PATH=/usr/local/bin:/usr/local/sbin:$PATH
+
