@@ -1,8 +1,8 @@
 #cmd line tools
 brew install redis
 brew install wget
-python
-python3
+brew install python
+brew install python3
 
 #install cask
 brew install caskroom/cask/brew-cask
